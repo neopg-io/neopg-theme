@@ -1,6 +1,10 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "head" }}
 <style>
+  .ui.main.container {
+  background: none;
+  }
+  
   .ui.masthead {
   padding: 10em 0;
   }
@@ -52,7 +56,7 @@
   <div class="ui hidden divider"></div>
   {{ .Content }}
   <div class="ui hidden divider"></div>
-  <div class="ui vertical  segment">
+  <div class="ui main container">
     <div class="ui text container">
       <h4 class="ui horizontal header divider">
         <a href="/blog/">Recent Blog Entries</a>
@@ -62,6 +66,7 @@
       {{ end }}
     </div>
   </div>
+  <div class="ui hidden divider"></div>
   {{ partial "footer.html" }}
 </div>
 {{ end }}
