@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-lora",
+        "scope": null,
+        "escapedName": "typeface-lora",
+        "name": "typeface-lora",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/marcus/projects/neopg/web/victor-hugo"
+    ]
+  ],
+  "_from": "typeface-lora@latest",
+  "_id": "typeface-lora@0.0.44",
+  "_inCache": true,
+  "_location": "/typeface-lora",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-lora-0.0.44.tgz_1510591797256_0.13808882143348455"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-lora",
+    "scope": null,
+    "escapedName": "typeface-lora",
+    "name": "typeface-lora",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-lora/-/typeface-lora-0.0.44.tgz",
+  "_shasum": "8e29f62e15c294d7cb0e677f8ca1c731fa3135fa",
+  "_shrinkwrap": null,
+  "_spec": "typeface-lora",
+  "_where": "/home/marcus/projects/neopg/web/victor-hugo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "Lora typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-bZqJKjIAZuEWgEn3zfY8h+h09ZaoyqcmA6lVM88q07rIZCx8+wJXX6oZXDFfNIbY36nnBpKqjC3mr0srEb8fAQ==",
+    "shasum": "8e29f62e15c294d7cb0e677f8ca1c731fa3135fa",
+    "tarball": "https://registry.npmjs.org/typeface-lora/-/typeface-lora-0.0.44.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "lora"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-lora",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/lora"
+  },
+  "version": "0.0.44"
+}

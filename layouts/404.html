@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    {{ .Hugo.Generator }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <link href="/css/semantic.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/neopg.css" rel="stylesheet" type="text/css">
+
+  <style type="text/css">
+
+    .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .masthead.segment {
+        min-height: 350px;
+      }
+      .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+      }
+    }
+  </style>
+
+
+  </head>
+  <body>
+    <div class="ui masthead center aligned container error">
+      <div class="ui container">
+	<h1 class="ui header">
+	  You have found nothing.
+	</h1>
+	<div class="ui divider"></div>
+	<a href="/"><p class="sans-serif">Nothing stops you from going back.</p></a>
+      </div>
+    </div>
+  </body>
+</html>

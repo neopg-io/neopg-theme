@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-pt-sans-narrow",
+        "scope": null,
+        "escapedName": "typeface-pt-sans-narrow",
+        "name": "typeface-pt-sans-narrow",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/marcus/projects/neopg/web/victor-hugo"
+    ]
+  ],
+  "_from": "typeface-pt-sans-narrow@latest",
+  "_id": "typeface-pt-sans-narrow@0.0.44",
+  "_inCache": true,
+  "_location": "/typeface-pt-sans-narrow",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-pt-sans-narrow-0.0.44.tgz_1510591942420_0.7536324802786112"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-pt-sans-narrow",
+    "scope": null,
+    "escapedName": "typeface-pt-sans-narrow",
+    "name": "typeface-pt-sans-narrow",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-pt-sans-narrow/-/typeface-pt-sans-narrow-0.0.44.tgz",
+  "_shasum": "893454f70be1a22512b1ca725c9e5010f071b0f1",
+  "_shrinkwrap": null,
+  "_spec": "typeface-pt-sans-narrow",
+  "_where": "/home/marcus/projects/neopg/web/victor-hugo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "PT Sans Narrow typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-dTTrABvFEexQxSR9+NO1lEmhfZviOe+RqLB++ja3a3n7/esFf60WEuMNGuJpDCpbJKUm18d+YTYkIpTXvpZ0gA==",
+    "shasum": "893454f70be1a22512b1ca725c9e5010f071b0f1",
+    "tarball": "https://registry.npmjs.org/typeface-pt-sans-narrow/-/typeface-pt-sans-narrow-0.0.44.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "pt-sans-narrow"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-pt-sans-narrow",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/pt-sans-narrow"
+  },
+  "version": "0.0.44"
+}

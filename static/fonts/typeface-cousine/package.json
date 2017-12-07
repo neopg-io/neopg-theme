@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-cousine",
+        "scope": null,
+        "escapedName": "typeface-cousine",
+        "name": "typeface-cousine",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/marcus/projects/neopg/web/victor-hugo"
+    ]
+  ],
+  "_from": "typeface-cousine@latest",
+  "_id": "typeface-cousine@0.0.44",
+  "_inCache": true,
+  "_location": "/typeface-cousine",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-cousine-0.0.44.tgz_1510591576775_0.41399464337155223"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-cousine",
+    "scope": null,
+    "escapedName": "typeface-cousine",
+    "name": "typeface-cousine",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-cousine/-/typeface-cousine-0.0.44.tgz",
+  "_shasum": "2142845752724e25c9eb2a4e007573f4a5781817",
+  "_shrinkwrap": null,
+  "_spec": "typeface-cousine",
+  "_where": "/home/marcus/projects/neopg/web/victor-hugo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "Cousine typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-qHp6bJl1Oeme+dHzR9gx43hbUY9qevhrUq3RqRoRcIvA09nMY43mffug5bqoIRWk1Uk/sTbcJy1No+JXj25JgQ==",
+    "shasum": "2142845752724e25c9eb2a4e007573f4a5781817",
+    "tarball": "https://registry.npmjs.org/typeface-cousine/-/typeface-cousine-0.0.44.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "cousine"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-cousine",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/cousine"
+  },
+  "version": "0.0.44"
+}

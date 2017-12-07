@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-pt-sans",
+        "scope": null,
+        "escapedName": "typeface-pt-sans",
+        "name": "typeface-pt-sans",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/marcus/projects/neopg/web/victor-hugo"
+    ]
+  ],
+  "_from": "typeface-pt-sans@latest",
+  "_id": "typeface-pt-sans@0.0.44",
+  "_inCache": true,
+  "_location": "/typeface-pt-sans",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-pt-sans-0.0.44.tgz_1510591943075_0.38237852160818875"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-pt-sans",
+    "scope": null,
+    "escapedName": "typeface-pt-sans",
+    "name": "typeface-pt-sans",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-pt-sans/-/typeface-pt-sans-0.0.44.tgz",
+  "_shasum": "ccb36b94595241761bf07f78737f5a818cff69e8",
+  "_shrinkwrap": null,
+  "_spec": "typeface-pt-sans",
+  "_where": "/home/marcus/projects/neopg/web/victor-hugo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "PT Sans typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-mM/jXtAiZVpA+mHSw5zHekv+bo/XhFwVO/PRY/uNLhPmn+A17TtNDeWHbeqCsBCgNykhboWUlRerVTTC925elQ==",
+    "shasum": "ccb36b94595241761bf07f78737f5a818cff69e8",
+    "tarball": "https://registry.npmjs.org/typeface-pt-sans/-/typeface-pt-sans-0.0.44.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "pt-sans"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-pt-sans",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/pt-sans"
+  },
+  "version": "0.0.44"
+}

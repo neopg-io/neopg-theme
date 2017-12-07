@@ -1,0 +1,15 @@
+<div class="ui vertical inverted thin sidebar menu" id="toc">
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+  <a class="item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+  {{ end }}
+  {{ with .Site.Params.twitter }}
+  <a class="item" href="https://twitter.com/{{ . }}" target="_blank" title="Twitter"><i class="twitter icon"></i> Twitter</a>
+  {{ end }}
+  {{ with .Site.Params.gitter }}
+  <a class="item" href="https://gitter.im/{{ . }}" target="_blank" title="Gitter"><i class="chat icon"></i> Chat</a>
+  {{ end }}
+  {{ with .Site.Params.github }}
+  <a class="item" href="https://github.com/{{ . }}" target="_blank" title="GitHub"><i class="github icon"></i> GitHub</a>
+  {{ end }}
+</div>

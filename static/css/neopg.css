@@ -1,0 +1,114 @@
+@import url("../fonts/typeface-pt-sans/index.css");
+@import url("../fonts/typeface-pt-sans-narrow/index.css");
+@import url("../fonts/typeface-pt-sans-caption/index.css");
+@import url("../fonts/typeface-pt-serif/index.css");
+@import url("../fonts/typeface-lora/index.css");
+@import url("../fonts/typeface-cousine/index.css");
+
+.sans-serif {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.serif {
+    font-family: 'PT Serif', serif;
+}
+
+.monospace {
+    font-family: 'Cousine', monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.large.text {
+   font-size: 1.7rem;
+}
+.somewhatlarger.text {
+   font-size: 1.2rem;
+}
+
+/* Switch between navbar and sidebar.  */
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+	display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+	display: block;
+    }
+}
+
+/* Header logo needs some space.  */
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+
+.ui.secondary.inverted.menu {
+    background: #112233;
+    padding: 0.5em 0;
+}
+
+/* We use a colored background, and want the main content to start
+   directly below the menu without a gap.  */
+.ui.menu.inverted.secondary.pointing {
+    margin-bottom: 0em;
+}
+
+/* Normal pages.  */
+.ui.main.container {
+    /* This padding also offsets a negative margin on the first header by
+       Semantic UI.  */
+    padding: 6em 0;
+    background: #fff;
+}
+
+/* Remove margin in mobile view, we already add our own padding in the
+   white space.  */
+@media only screen and (max-width: 700px) {
+    .ui.main.container {
+	margin-left: 0!important;
+    margin-right: 0!important;
+    }
+}
+/* Provide some vertical space to footer.  */
+.ui.footer.segment {
+    padding: 3em 0em;
+}
+
+.ui.text {
+    position: relative;
+}
+
+/* Footnotes */
+
+.footnotes {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+}
+
+
+/* Labels (tags etc) */
+.ui.basic.label {
+    color: inherit;
+    background: transparent;
+}
+
+/* Sugar */
+
+.ui.text.container h1 {
+    position: relative;
+    left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid orange;
+    /* Only underline content. */
+    display: inline-block;
+}

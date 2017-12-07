@@ -1,0 +1,67 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "head" }}
+<style>
+  .ui.masthead {
+  padding: 10em 0;
+  }
+  .ui.masthead .header {
+  font-size: 7rem;
+  }
+  .ui.masthead h2 {
+  font-size: 2.5rem;
+  }
+  h3 {
+  font-size: 2rem;
+  }
+@media only screen and (max-width: 700px) {
+  .masthead.segment {
+  min-height: 350px;
+  }
+  .masthead h1.ui.header {
+  font-size: 2em;
+  margin-top: 1.5em;
+  }
+  .masthead h2 {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  }
+}
+</style>
+{{ end }}
+{{ define "sidebar" }}
+ {{ partial "sidebar.html" . }}
+ <div class="ui large top secondary inverted pointing menu fixed">
+   {{ partial "menu.html" . }}
+ </div>
+{{ end }}
+{{ define "menu" }}
+<!-- Suppress non-fixed menu.  -->
+{{ end }}
+{{ define "main" }}
+<div>
+  <div class="ui inverted vertical center aligned segment masthead">
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        {{ .Title }}
+      </h1>
+      <h2>{{ block "subtitle" . }}A multiversal crypto engine.{{ end }}</h2>
+      <!-- <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div> -->
+    </div>
+  </div>
+
+  <div class="ui hidden divider"></div>
+  {{ .Content }}
+  <div class="ui hidden divider"></div>
+  <div class="ui vertical  segment">
+    <div class="ui text container">
+      <h4 class="ui horizontal header divider">
+        <a href="/blog/">Recent Blog Entries</a>
+      </h4>
+      {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+      {{ partial "summary.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  {{ partial "footer.html" }}
+</div>
+{{ end }}

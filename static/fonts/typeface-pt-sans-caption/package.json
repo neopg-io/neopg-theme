@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "typeface-pt-sans-caption",
+        "scope": null,
+        "escapedName": "typeface-pt-sans-caption",
+        "name": "typeface-pt-sans-caption",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/marcus/projects/neopg/web/victor-hugo"
+    ]
+  ],
+  "_from": "typeface-pt-sans-caption@latest",
+  "_id": "typeface-pt-sans-caption@0.0.44",
+  "_inCache": true,
+  "_location": "/typeface-pt-sans-caption",
+  "_nodeVersion": "8.7.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeface-pt-sans-caption-0.0.44.tgz_1510591940408_0.9021225527394563"
+  },
+  "_npmUser": {
+    "name": "kylemathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "typeface-pt-sans-caption",
+    "scope": null,
+    "escapedName": "typeface-pt-sans-caption",
+    "name": "typeface-pt-sans-caption",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-pt-sans-caption/-/typeface-pt-sans-caption-0.0.44.tgz",
+  "_shasum": "1a32ba54b2d3f7bc97fd174d25d2ac392506964a",
+  "_shrinkwrap": null,
+  "_spec": "typeface-pt-sans-caption",
+  "_where": "/home/marcus/projects/neopg/web/victor-hugo",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "dependencies": {},
+  "description": "PT Sans Caption typeface",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4gbOxsoXwacxa2nPUBoGtmomLk8jCrdh0VbrBz+a7npvJ7b4DRXR3TA2TsAAqlmre5cjEmGodbbeMz40pwR/uw==",
+    "shasum": "1a32ba54b2d3f7bc97fd174d25d2ac392506964a",
+    "tarball": "https://registry.npmjs.org/typeface-pt-sans-caption/-/typeface-pt-sans-caption-0.0.44.tgz"
+  },
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "pt-sans-caption"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "maintainers": [
+    {
+      "name": "kylemathews",
+      "email": "mathews.kyle@gmail.com"
+    }
+  ],
+  "name": "typeface-pt-sans-caption",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/typefaces/tree/master/packages/pt-sans-caption"
+  },
+  "version": "0.0.44"
+}

@@ -1,0 +1,21 @@
+<div class="ui container">
+  <a class="toc item">
+    <i class="sidebar icon"></i>
+  </a>
+  <a class="toc item" href="/">NeoPG</a>
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+  <a class="item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}{{ .Post }}</a>
+  {{ end }}
+  <div class="right menu">
+    {{ with .Site.Params.twitter }}
+    <a class="item" href="https://twitter.com/{{ . }}" target="_blank" title="Twitter"><i class="twitter icon"></i></a>
+    {{ end }}
+    {{ with .Site.Params.gitter }}
+    <a class="item" href="https://gitter.im/{{ . }}" target="_blank" title="Gitter"><i class="chat icon"></i></a>
+    {{ end }}
+    {{ with .Site.Params.github }}
+    <a class="item" href="https://github.com/{{ . }}" target="_blank" title="GitHub"><i class="github icon"></i></a>
+    {{ end }}
+  </div>
+</div>

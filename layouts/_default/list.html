@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="ui main container">
+  <div class="ui text container">
+  <h1 class="ui header">{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $i, $e := $paginator.Pages }}
+  {{ partial "summary.html" . }}
+  {{end}}
+  {{ partial "pagination.html" . }}
+  </div>
+</div>
+{{ partial "footer.html" }}
+{{ end }}
