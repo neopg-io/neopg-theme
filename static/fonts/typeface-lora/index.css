@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Lora';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 400;
   src:
     local('Lora Regular '),
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Lora';
   font-style: italic;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 400;
   src:
     local('Lora Regular italic'),
@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'Lora';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 700;
   src:
     local('Lora Bold '),
@@ -41,7 +41,7 @@
 @font-face {
   font-family: 'Lora';
   font-style: italic;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 700;
   src:
     local('Lora Bold italic'),

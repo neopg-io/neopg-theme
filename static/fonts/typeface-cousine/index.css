@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Cousine';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 400;
   src:
     local('Cousine Regular '),
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Cousine';
   font-style: italic;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 400;
   src:
     local('Cousine Regular italic'),
@@ -28,7 +28,7 @@
 @font-face {
   font-family: 'Cousine';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 700;
   src:
     local('Cousine Bold '),
@@ -41,7 +41,7 @@
 @font-face {
   font-family: 'Cousine';
   font-style: italic;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 700;
   src:
     local('Cousine Bold italic'),

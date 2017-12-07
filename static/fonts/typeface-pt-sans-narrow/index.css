@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'PT Sans Narrow';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 400;
   src:
     local('PT Sans Narrow Regular '),
@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'PT Sans Narrow';
   font-style: normal;
-  font-display: swap;
+  /* font-display: swap; */
   font-weight: 700;
   src:
     local('PT Sans Narrow Bold '),
