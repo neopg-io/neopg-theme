@@ -5,6 +5,10 @@
 @import url("../fonts/typeface-lora/index.css");
 @import url("../fonts/typeface-cousine/index.css");
 
+ul {
+    list-style-type: square;
+}
+
 .sans-serif {
     font-family: 'PT Sans', sans-serif;
 }
