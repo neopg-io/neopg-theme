@@ -17,8 +17,9 @@ ul {
     font-family: 'PT Serif', serif;
 }
 
-.monospace {
+code, .monospace {
     font-family: 'Cousine', monospace;
+    font-size: 95%; /* Cousine is 5% bigger than PT Mono.  */
 }
 
 .italic {
