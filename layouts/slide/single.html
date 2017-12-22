@@ -1,0 +1,66 @@
+{{ define "head" }}
+<link rel="stylesheet" href="/css/reveal/reveal.css">
+<link rel="stylesheet" href="/css/reveal/neopg.css">
+{{ end }}
+{{ define "body" }}
+<div class="reveal">
+  <div class="slides ui">
+    <section data-markdown
+	     data-separator="^---"
+	     data-separator-vertical="^___"
+	     data-separator-notes="^Note:">
+      {{ .RawContent }}
+    </section>
+  </div>
+</div>
+<script src="/js/reveal/head.min.js"></script>
+<script src="/js/reveal/reveal.js"></script>
+<script>
+  Reveal.initialize({
+  embedded : true,
+
+  chart: {
+    defaults: { 
+      global: { 
+        title: { fontColor: "#123" },
+        legend: {
+          position: "bottom",
+          labels: { fontColor: "#123" },
+        },
+        tooltips: {
+          labels: { fontColor: "#123" },
+        },
+      }, 
+      scale: { 
+        scaleLabel: { fontColor: "#123" }, 
+        gridLines: { color: "#123", zeroLineColor: "#123" }, 
+        ticks: { beginAtZero: true, fontColor: "#123" },
+      } 
+    },
+    line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ] }, 
+    bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+    pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+    radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+  },
+  
+  {{ range $key, $value := .Params.revealoptions }}
+  {{ $key | safeHTML}}:{{$value }},
+  {{ end }}
+  // theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+  { src: '/js/reveal/classList.js', condition: function() { return !document.body.classList; } },
+  { src: '/js/reveal/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: '/js/reveal/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  { src: '/js/reveal/Chart.min.js' },
+  { src: '/js/reveal/csv2chart.js' },
+  ]
+  });
+  
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? '/css/reveal/pdf.css' : '/css/reveal/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+{{ end }}

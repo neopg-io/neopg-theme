@@ -18,6 +18,7 @@
     {{ block "head" . }}{{ end }}
   </head>
   <body>
+  {{ block "body" . }}
     {{ block "sidebar" . }}
     {{ partial "sidebar.html" . }}
     {{ end }}
@@ -32,5 +33,6 @@
       {{ partial "footer.html" . }}
     {{ end }}
     </div>
+  {{ end }}
   </body>
 </html>
