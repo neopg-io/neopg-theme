@@ -19,13 +19,16 @@
     {{ block "sidebar" . }}
     {{ partial "sidebar.html" . }}
     {{ end }}
-      <div class="pusher">
-	{{ block "menu" . }}
-        <div class="ui large top secondary inverted pointing menu ">
-	  {{ partial "menu.html" . }}
-        </div>
-        {{ end }}
-      {{ block "main" . }}{{ end }}
+    <div class="pusher">
+      {{ block "menu" . }}
+      <div class="ui large top secondary inverted pointing menu ">
+        {{ partial "menu.html" . }}
+      </div>
+      {{ end }}
+    {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}
+      {{ partial "footer.html" . }}
+    {{ end }}
     </div>
   </body>
 </html>
