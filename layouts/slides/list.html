@@ -10,6 +10,12 @@
   <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   <div>
     {{ .Params.description }}
+    {{ if .Params.pdf }}
+     · <span><a href="{{ .Params.pdf }}"><i class="pdf file outline icon"></i> Slides</a></span>
+    {{ end }}
+    {{ if .Params.video }}
+     · <span><i class="film icon"></i> Video</span>
+    {{ end }}
   </div>
 	
   {{end}}
