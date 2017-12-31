@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     {{ .Hugo.Generator }}
 
+    <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    <link href="/blog/index.xml" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+
     <title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
     <link href="/css/semantic.min.css" rel="stylesheet" type="text/css">
     <link href="/css/highlight.css" rel="stylesheet" type="text/css">
