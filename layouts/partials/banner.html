@@ -1,0 +1,27 @@
+<div class="ui info message">
+  <div class="ui three column centered grid sans-serif">
+    <div class="three column row">
+      <p class="bold large text">If you like what you see, please support NeoPG development!</p>
+    </div>
+    <div class="column center aligned">
+      <a href="https://salt.bountysource.com/teams/{{ .Site.Params.bountysource }}"><img class="ui small rounded centered image" src="/images/bountysource.png"></a>
+      <p>Bountysource</p>
+    </div>
+    <div class="column center aligned">
+      <a href="https://www.patreon.com/{{ .Site.Params.patreon }}"><img class="ui small rounded centered image" src="/images/patreon.png"></a>
+      <p>Become a Patreon</p>
+    </div>
+    <div class="column bottom aligned">
+      <span>
+	<a class="ui massive twitter icon button"
+	   href="https://twitter.com/intent/tweet?text=%23neopg {{ .Title | html }}&amp;url={{ .Permalink | html }}"
+	   target="_blank" rel="noopener"><i class="twitter large icon"></i></a>
+	<p>Spread the word</p>
+      </span>
+    </div>
+    <div class="three column row italic somewhatlarger text">
+      <p>If you want to write code or documentation, join us on
+	<a class="ui inverted" href="https://github.com/{{ .Site.Params.github }}"><i class="github icon"></i>GitHub!</a></p>
+    </div>
+  </div>
+</div>

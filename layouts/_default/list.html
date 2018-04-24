@@ -7,8 +7,27 @@
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $i, $e := $paginator.Pages }}
   {{ partial "summary.html" . }}
-  {{end}}
+  {{ end }}
   {{ partial "pagination.html" . }}
+
+  {{ if .Sections }}
+  <div class="ui hidden divider"></div>
+  <div class="ui cards">
+    {{ range .Sections }}
+    <a class="ui card" href="{{ .RelPermalink }}">
+      <div class="content">
+        <div class="center aligned header" style="color: #4183c4;">
+          {{ .Params.tagline }}
+        </div>
+        <div class="center aligned description">
+          {{ .Title }}
+        </div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
   </div>
 </div>
 {{ end }}
