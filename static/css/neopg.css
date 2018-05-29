@@ -117,3 +117,9 @@ code, .monospace {
     /* Only underline content. */
     display: inline-block;
 }
+
+pre {
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f8f8f8;
+}
