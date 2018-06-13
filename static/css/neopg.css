@@ -123,3 +123,24 @@ pre {
   padding: 0.5em;
   background: #f8f8f8;
 }
+
+.ui.toc {
+    background-color: #f8f8f8;
+}
+
+#TableOfContents > ul {
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#TableOfContents > ul > li ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+#TableOfContents > ul > li > ul > li > ul {
+    display: none;
+}
